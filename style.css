@@ -37,8 +37,18 @@ body {
   border-radius: 4px;
 }
 
+.file-input.active > .drop-zone {
+  margin: 14px;
+  background-color: #193354;
+}
+
 .drop-zone {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.drop-zone p {
+  z-index: 99;
+  text-shadow: rgba(18, 18, 18, 0.5) 1px 0 20px;
 }
